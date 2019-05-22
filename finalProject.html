@@ -1,0 +1,51 @@
+<html>
+<head>
+    <title>WEB 115 Final Project</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    
+    <h1 id="fullName"></h1>
+    <h2 id="courseSection"></h2>
+    <hr id="hr"/>
+    
+    <h1>Build Your Resume</h1>
+    
+    <form id = "myForm">
+
+        <input type = "text" id = "myInput" value = "Enter your full name" size="50"/><br />
+        <input type = "text" id = "myAddress" value = "Enter your address" size="100"/><br />
+        <input type = "text" id = "myNumber" value = "Enter your phone number" size="50"/><br />
+        <input type = "text" id = "myEmail" value = "Enter your e-mail address" size="50"/><br />
+        <textarea id = "myPersonalInfo" value = "Enter your personal information" rows="5" cols="75">Enter your personal information</textarea><br />
+        <textarea id = "myCareer" value = "Enter your career objectives" rows="5" cols="75">Enter your career objectives</textarea><br />
+        <textarea id = "myEducation" value = "Enter your educational background" rows="5" cols="75">Enter your educational background</textarea><br />
+        
+        <p>From: <input type = "date" id="myDate1" />
+        To: <input type = "date" id="myDate2" /></p>
+        <p><textarea id = "myWork1" value = "Enter your most recent employment experience" rows="5" cols="75">Enter your most recent employment experience</textarea></p>
+        
+        <p>From: <input type = "date" id="myDate3" />
+            To: <input type = "date" id="myDate4" /></p>
+        <p><textarea id = "myWork2" value = "Enter your second most recent employment experience" rows="5" cols="75">Enter your second most recent employment experience</textarea></p>
+        
+        <p>From: <input type = "date" id="myDate5" />
+            To: <input type = "date" id="myDate6" /></p>
+        <p><textarea id = "myWork3" value = "Enter your third most recent employment experience" rows="5" cols="75">Enter your third most recent employment experience</textarea></p>
+        
+        <p>From: <input type = "date" id="myDate7" />
+            To: <input type = "date" id="myDate8" /></p>
+        <p><textarea id = "myWork4" value = "Enter your fourth most recent employment experience" rows="5" cols="75">Enter your fourth most recent employment experience</textarea></p>
+        
+        <textarea id = "myCharacter" value = "Enter your character references" rows="5" cols="75">Enter your character references</textarea><br />
+        
+        <textarea id = "myReferences" value = "Enter your business references" rows="5" cols="75">Enter your business references</textarea><br />
+        
+        <p><input type = "button" id = "myButton" value = "Create Resume" onclick="myWindow()" /></p>
+    </form>
+    
+    
+    <script src="projectJS.js"></script>
+</body>
+</html>

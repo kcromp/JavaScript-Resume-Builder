@@ -1,0 +1,24 @@
+body {
+    font-size: 12pt;
+    font-family: menlo; /*monospaced*/
+}
+
+#theLeft {
+    clear:both;
+    width:15%;
+    float:left;
+}
+
+#theRight {
+    width:83%;
+    float:right;
+    padding-bottom: 20px;
+}
+
+#hr {
+    width: 60%;
+}
+
+h1 {
+    text-align: center;
+}
